@@ -8,6 +8,17 @@ public class Train {
       int wagons;
       String color;
 
+      @Override
+      public String toString() {
+            return "Train{" +
+                    "type='" + type + '\'' +
+                    ", form='" + form + '\'' +
+                    ", wagonssquare=" + wagonssquare +
+                    ", wagons=" + wagons +
+                    ", color='" + color + '\'' +
+                    '}';
+      }
+
       public Train(String type, String form, float wagonssquare, int wagons, String color){
             this.type = type;
             this.form = form;
@@ -17,7 +28,10 @@ public class Train {
 
 
 
+
       }
+
+
             }
 
 

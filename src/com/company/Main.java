@@ -15,6 +15,8 @@ public class Main {
         Tunnel tunnel3 = new Tunnel(500);
 
         Depo depo = new Depo(15, "Lermontovsy prospekt");
+
+
     }
 
 
